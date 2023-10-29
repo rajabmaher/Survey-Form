@@ -1,0 +1,181 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+.leftSide {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    object-fit: contain;
+}
+.formImage {
+    width: 100%;
+    height: 100%;
+}
+.flex {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    height: 150px;
+    top: 150px;
+    opacity: 0.5;
+}
+.flex > .the-logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.form-logo {
+    height: 100%;
+    color: white;
+}
+.logoName {
+    font-size: 50px;
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+}
+.flex > .two {
+    flex: 2;
+} 
+
+.copyright {
+    position: absolute;
+    color: #f3f3f3;
+    width: 100%;
+    display: flex;
+    height: 50px;
+    top: 700px;
+}
+.copyright > .one {
+    flex: 1;
+    text-align: center;
+}
+.copyright > .one a {
+    color: #f3f3f3;
+}
+.copyright > .two {
+    flex: 2;
+}
+
+
+.rightSide {
+    flex: 2;
+    background-color: rgb(43, 146, 43);
+    font-family: Poppins, sans-serif;
+    color: #f3f3f3;
+}
+.rightSide > header {
+    margin: 20px 0;
+    text-align: center;
+}
+header > h1 {
+    font-size: 32p;
+}
+header > p {
+    font-size: 18px;
+}
+.survey-form {
+    width: 60%;
+    background-color: rgb(140, 186, 140);
+    margin: auto;
+    padding: 20px;
+}
+.survey-form > .one {
+    display: flex;
+    flex-direction: column;
+}
+.one > label {
+    font-size: 18px;
+    margin: 5px 0;
+}
+.one > input {
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+}
+.one > input:hover {
+    border: 2px solid black;
+}
+.recommend {
+    margin: 7px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 7px; 
+    font-size: 18px; 
+}
+.option {
+    margin-right: 10px;
+}
+
+.features , .current-role {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+select {
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+.WorkingOn {
+    font-size: 18px;
+}
+.WorkingOn > label {
+    display: block;
+    margin: 10px 0;
+}
+.checkbox {
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+}
+
+.theTextArea {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 18px;
+}
+.textarea {
+    height: 120px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.SubmationButton {
+    margin: 15px 0;
+    display: flex;
+}
+.SubmationButton > .submit-button {
+    flex: 1;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    color: #f3f3f3;
+    background-color: #37AF65;
+}
+.submit-button:hover {
+    background-color: green;
+    border: 2px solid #f3f3f3;
+}
